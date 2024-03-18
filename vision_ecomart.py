@@ -47,5 +47,3 @@ def analisar_imagem(caminho_imagem):
         max_tokens=300,
         )
     return resposta.choices[0].message.content
-
-print(analisar_imagem("dados/new_caneca.png"))
